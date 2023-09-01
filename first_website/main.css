@@ -9,6 +9,12 @@ p {
     background-color: rgb(228, 229, 144);
     padding: 30px;
     margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p:hover {
+    font-size: 30px;
 }
 
 li {
@@ -29,3 +35,17 @@ border: 10px dotted pink;
     background-color: rgb(227, 118, 136);
     border: 5px solid;
 } /*best to use classes over Ids for now!*/
+
+a {
+    color: rgb(123, 72, 155);
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    background-color: white;
+}
