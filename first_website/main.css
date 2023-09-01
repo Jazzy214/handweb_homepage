@@ -1,0 +1,31 @@
+body {
+    background-color: #91abc4;
+    margin: 20;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    background-color: rgb(228, 229, 144);
+    padding: 30px;
+    margin: 30px;
+}
+
+li {
+    color: blueviolet;
+}
+
+ol {
+    background-color: pink;
+}
+
+#introduction {
+background-color: rgb(125, 162, 110);
+font-size: 40px;
+border: 10px dotted pink;
+} /*if no color is specifed, the border will take the color of the element it is altering*/
+
+.introduction {
+    background-color: rgb(227, 118, 136);
+    border: 5px solid;
+} /*best to use classes over Ids for now!*/
