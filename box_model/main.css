@@ -1,0 +1,43 @@
+* {
+    /*box-sizing: border-box;
+    color: rgb(168, 153, 185);*/
+}
+
+/* the "*" will target every element on a webpage/document*/
+
+.content-box {
+    background-color: rgb(255, 228, 228);
+    width: 300px;
+    height: 300px;
+    /*padding: 50px;*/
+    padding: 50px;
+    border: 20px solid;
+    margin: 20px;
+    /*border-radius: 100%;*/
+    /*toggle comment shortcut is "ctrl /"*/
+}
+
+.border-box {
+    background-color: rgb(204, 229, 204);
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 20px solid;
+    margin: 20px;
+    box-sizing: border-box;
+    /*display: inline-block;*/
+    /*when used on block elements, allows them to act as inline elements*/
+}
+
+.inline {
+    background-color: plum;
+    width: 60px;
+    height: 60px;
+    /* by default inline elements do not follow width/height property changes, nothing changes*/
+    padding: 5px;
+    border: 1px solid;
+    margin: 20px;
+    /*the top and bottom margins will not be affected on inline elements, left and right margins will work as usual*/
+    display: inline-block;
+    /*allows inline elements to inherit width, height, and all margin properties*/
+}
