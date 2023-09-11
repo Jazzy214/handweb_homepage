@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 235, 251);
+    color: rgb(253, 252, 255);
+}
+
+/* simple way to center an element horizontally */
+.center {
+    background-color: rgb(229, 214, 240);
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    /* max-width allows an element to resize itself when the window size is altered */
+    margin: 0 auto;
+    /* padding and margin - first value (0) = top, bottom and second value (auto) = left, right */
+    border: 1px solid;
+}
+
+.square {
+    background-color: rgb(231, 212, 233);
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    /* position: */
+    /* top, botton, left, right properties need the postion element to be active first, other than position: static! */
+}
+
+/* can overide previous css because of the order! Rules that are declared first can be overuled by rules occuring later on in the document */
+.relative {
+    background-color: rgb(255, 228, 232);
+    position: relative;
+    /* relative postion tells the document that this element can now be moved using left, right, top, bottom, will keep it's original space even when moved */
+    top: 30px;
+    left: 30px;
+    /* moves element from original position, can use negative values */
+    z-index: 3;
+}
+
+.fixed {
+    background-color: rgb(217, 236, 245);
+    position: fixed;
+    /* fixed elements are postioning themselves relevent to the viewport, or size of the browsing window, tells the document that this element can now be moved using left, right, top, bottom */
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    /* fixed positon moves elements not from original postion but from the viewport, use 0px to have an element be flush against an edge */
+
+    /* way to perfectly center an element in the middlde of a page*/
+    transform: translate(-50% /*X value*/, -50% /*Y value*/);
+    /* transform can be used without using the postion property first! */
+
+    z-index: 4;
+}
+
+.container {
+    background-color: rgb(245, 247, 211);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.absolute {
+    background-color: rgb(208, 224, 208);
+    position: absolute;
+    top: -.5px;
+    right: -100px;
+    padding: 10px;
+    border: 1px solid;
+    width: 100px
+}
+
+.sticky {
+    background-color: rgb(249, 202, 178);
+    position: sticky;
+    top: 0;
+    /* need to specify top, bottom, left, or right value for sticky to work */
+    z-index: 2; 
+    /* difines layers on a webpage, by default every element is set to 0, increase/decrease the number to increase/decrease the layer hierarchy */
+}
