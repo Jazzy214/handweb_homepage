@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(213, 189, 222);
+}
+
+.footer {
+    margin: 0px;
+}
+
+.link {
+    color: white;
+}
+
+.textblock2 p {
+    text-align: left;
+    width: 300px;
+    font-size: 23px;
+    border: white dotted;
+    padding: 40px;
+    margin: 5px;
+}
+
+p {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 30px
+}
+
+.inline {
+    display: inline-block;
+    padding: 15px
+}
+
+.header {
+    text-align: center;
+    padding-left: 46%;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.profiles {
+    padding-left: 10%;
+    padding-top: 120px;
+    width: 1200px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 980px;
+    padding: 17%;
+    padding-bottom: 10px;
+    padding-top: 120px;
+}
+
+.footer {
+    padding-bottom: 0px;
+}
+
+.relative {
+    position: relative;
+    top: -700px;
+    left: 600px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.fixed {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    margin: 0;
+    z-index: 1;
+}
