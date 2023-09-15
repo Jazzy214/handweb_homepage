@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(197, 224, 210);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    /* by default, flex-direction is set to row */
+    flex-wrap: wrap;
+
+    /* flex-flow: row wrap; */
+    /* ^ quicker way to use flex elements*/
+
+    /* justify-content pertains to the main axis */
+    justify-content: center;
+    /* flext-start = default alignment  */
+    /* flex-end = aligns items at the end of container */
+    /* space-between = items are pushed to the edges and then space is filled between them */
+    /* space-evenly = puts equal amount of space between items and around them */
+    /* center = centers all items in the container */
+
+    Height: 400px;
+    /* align-items pertains to the cross axis */
+    /* align-items: center; */
+    /* flex-end = moves items to bottom of container */
+    /* flex-start = default */
+    /* basline = aligns the basline of items */
+    /* center = perfectly centers items vertically in container, when using justify-content: center as well */
+
+    /* align-content pertains to multi-line flexboxes with flex-wrap set to wrap on the cross axis */
+    align-content: center;
+
+    /* create space between objects */
+    gap: 20px 40px;
+    /* row-gap = create gap between rows */
+    /*  gap = create gap between items */
+    /* column-gap = space between itema on horizontal axis */
+    /* first value = row gap second value = column gap ex. gap: 20px 40px; */
+    /* better to use gap property over padding/margin when using flexbox containers */
+}
+
+.item {
+    background-color: rgb(200, 218, 191);
+    padding: 10px;
+    border: 1px solid white;
+    width: 300px;
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special {
+    background-color: rgb(182, 223, 141);
+    order: -1;
+    /* default order is 0, can be used to move items without having to alter the html */
+
+}
