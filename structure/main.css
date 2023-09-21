@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    cursor: crosshair;
+    background-color: rgb(234, 255, 215);
+}
+
+input[type=submit] {
+    background-color: rgb(255, 239, 150);
+    border-radius: 5px;
+    border: 1px dotted black;
+    color: rgb(56, 95, 56);
+}
+
+.main-container {
+    background-color: rgb(186, 204, 176);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.case {
+    background-color: #d6e0f6;
+    width: 21%;
+    height: 75%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    margin-left: 600px;
+    margin-top: 95px;
+    border-radius: 18px;
+    position: fixed;
+}
+
+.screen {
+    background-image: url("images/bee.gif");
+    background-size: cover;
+    width: 96%;
+    height: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    position: fixed;
+}
+
+.camera {
+    background-color: rgb(127, 110, 94);
+    width: 80px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: -1500px;
+    border-radius: 0;
+    position: fixed;
+}
+
+.content {
+    width: 450px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 15px;
+    z-index: 1;
+    color: white;
+}
+
+/*.hide {
+    background-color: rgb(186, 204, 176);
+    width: 94%;
+    height: 16px;
+    position: fixed;
+    top: 737px;
+    right: 50px;
+    z-index: 5;
+}*/
+
+.left {
+    position: fixed;
+    text-align: left;
+    left: 52%;
+    top: 76%;
+}
