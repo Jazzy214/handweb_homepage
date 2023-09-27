@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    position: fixed;
+}
+.box {
+    /* use background color here as well if you want your animation to remain visible */
+    background-color: plum;
+    width: 300px;
+    height: 300px;
+    /* animation-name: life; */
+    /* animation-duration: 3s; */
+    /* animation-delay: 2s;  */
+    /*negative vaules play the animation as if it were already in motion before the page loaded*/
+    /* animation-iteration-count: infinite; */
+    /* can use for a slower seamless animation, doubles animation time since it plays the animation twice just in reverse the second time */
+    /* animation-direction: alternate; */
+    /* linear is less gradual then ease */
+    /* animation-timing-function: linear; */
+    /* none is the default fill mode */
+    /* fowards animates to last keyframe and freezes */
+    /* dispapers after last keyframe */
+    /* both extends the animation properties in both directions*/
+    /* animation-fill-mode: linear; */
+
+    /* first value is duration 1s second value is dealy */
+    /* shorthand animation property puts everything up top into one line */
+    animation: life 3s infinite alternate linear 2s;
+
+}
+
+/* animation title can be whatever you want*/
+@keyframes life {
+    0% { /*keyframe 1*/
+        background-color: plum;
+    }
+
+    /* can use for a seamless transition */
+    /*50% {
+        background-color: pink;
+    }*/
+
+    100% { /*keyframe 2*/
+        background-color: pink;
+    }
+}
+
+.container {
+    background-color: rgb(187, 217, 202);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circle {
+    background-color: rgb(232, 232, 179);
+    /* vw allows for elemts to respond to window manipulation */
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+
+    animation: pulse 2s infinite alternate ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgb(232, 232, 179);
+        transform: scale(1);
+    }
+
+    100% {
+        background-color: rgb(230, 183, 95);
+        transform: scale(1.5);
+    }
+}
+
+.square {
+    background-color: rgb(179, 161, 198);
+    width: 17vw;
+    height: 17vw;
+
+    animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mover {
+    /* background-color: rgb(179, 161, 198);
+    width: 15vw; 
+    height: 2vw; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    animation: slide 6s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translatex(-18vw);
+        opacity: 0;
+    }
+
+    /*50% {
+        transform: translate(50vw) scale(2) rotate(180deg);
+    }*/
+
+    100% {
+        transform: translatex(100vw);
+        opacity: 1;
+    }
+
+}
+
+.mover-shape {
+    background-color: rgb(179, 161, 198);
+    width: 15vw; 
+    height: 2vw;
+    animation: grow 3s infinite alternate;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scacle(4);
+    }
+
+    100% {
+        transform: scale(2);
+    }
+}
