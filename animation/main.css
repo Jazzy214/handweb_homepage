@@ -9,6 +9,7 @@ body {
 ul {
     position: fixed;
 }
+
 .box {
     /* use background color here as well if you want your animation to remain visible */
     background-color: plum;
@@ -141,7 +142,7 @@ ul {
     }
 
     50% {
-        transform: scacle(4);
+        transform: scale(4);
     }
 
     100% {
