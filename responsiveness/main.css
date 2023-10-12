@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    /* width: 100%; */
+    /* max-width: 600px; */
+
+    max-width: 100%;
+}
+
+p {
+    background-color: rgb(212, 132, 86);
+    padding: 30px;
+    color: white;
+
+    max-width: 600px;
+}
+
+.featured-image {
+    /* more adaptable than applying to all images */
+    width: 100%;
+    max-width: 600px;
+}

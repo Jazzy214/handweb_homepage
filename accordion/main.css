@@ -1,0 +1,568 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+}
+
+.container {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-family: "Wix Madefor Display", serif;
+    position: fixed;
+    font-size: 13px;
+    left: 2%;
+    bottom: 2%;
+    /* display: none; */
+}
+
+.title {
+    font-family: "Wix Madefor Display", serif;
+    font-size: 130px;
+    text-align: center;
+    position: fixed;
+    /* display: none; */
+
+    transition: all 5s;
+}
+
+.subtext {
+    font-family: "Raleway Dots" , serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    top: 80%;
+    /* display: none; */
+
+    transition: all 4s;
+}
+
+
+
+.stars {
+    opacity: 0;
+
+    animation: fade 5s linear;
+}
+
+.star {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 15%;
+    top: 30%;
+}
+
+.star2 {
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    border-radius: 100%;
+    left: 25%;
+    top: 83%;
+}
+
+.star3 {
+    background-color: white;
+    width: 3px;
+    height: 3px;
+    position: fixed;
+    border-radius: 100%;
+    left: 60%;
+    top: 64%;
+}
+
+.star4 {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 68%;
+    top: 24%;
+}
+
+.star5 {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 87%;
+    bottom: 20%;
+}
+
+.star6 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    position: fixed;
+    border-radius: 100%;
+    left: 5%;
+    top: 70%;
+}
+
+.star7 {
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    position: fixed;
+    border-radius: 100%;
+    left: 91%;
+    top: 10%;
+}
+
+.star8 {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 39%;
+    top: 35%;
+}
+
+.star9 {
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    border-radius: 100%;
+    left: 51%;
+    top: 93%;
+}
+
+.star10 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    position: fixed;
+    border-radius: 100%;
+    left: 81%;
+    top: 43%;
+}
+
+.star11 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    position: fixed;
+    border-radius: 100%;
+    left: 7%;
+    top: 8%;
+}
+
+.star12 {
+    background-color: white;
+    width: 3px;
+    height: 3px;
+    position: fixed;
+    border-radius: 100%;
+    left: 46%;
+    top: 11%;
+}
+
+.star13 {
+    background-color: white;
+    width: 2px;
+    height: 2px;
+    position: fixed;
+    border-radius: 100%;
+    left: 18%;
+    top: 65%;
+}
+
+/* star animations */
+
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.moon {
+    background-color: rgb(241, 239, 231);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    border-radius: 100%;
+    /* filter: blur(1px); */
+    display: none;
+
+    transition: all 4s;  
+}
+
+/* moon animation */
+
+@keyframes rise {
+    0% {
+        transform: translateY(80vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
+
+.dashed {
+    /* background-color: black; */
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    border-radius: 100%;
+    border: 1px dashed white;
+    display: none;
+}
+
+.dashed2 {
+    /* background-color: black; */
+    width: 1200px;
+    height: 1200px;
+    position: fixed;
+    border-radius: 100%;
+    border: 1px dashed white;
+    display: none;
+}
+
+.dotted {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    border-radius: 100%;
+    border: 1px dotted white;
+    display: none;
+}
+
+.dotted2 {
+    width: 800px;
+    height: 800px;
+    position: fixed;
+    border-radius: 100%;
+    border: 1px dotted white;
+    display: none;
+}
+
+.line {
+    width: 570px;
+    height: 570px;
+    position: fixed;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: none;
+}
+
+.line2 {
+    width: 950px;
+    height: 950px;
+    position: fixed;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: none;
+}
+
+/* pulsing rings animation */
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+/* rotating rings animation */
+
+@keyframes rotate {
+    0% {
+        transform: scale(0) rotate(0);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+
+.glow {
+    background-color: rgb(254, 253, 251);
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    border-radius: 100%;
+    opacity: 0.8;
+    filter: blur(20px) brightness(110%);
+    display: none;
+
+    transition: all 4s;
+    /* animation: glow 2s infinite alternate; */
+}
+
+/* glow animation */
+
+@keyframes glow {
+    0% {
+        scale: (0);
+    }
+
+    100% {
+        scale: (1);
+    }
+}
+
+
+@media screen and (max-width: 1800px) {
+    .stars {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .subtext {
+        display: block;
+        opacity: 0;
+    }
+
+    .title {
+        text-shadow: 
+        0 0 7px #fff,
+        0 0 13px #fff,
+        0 0 25px #fff,
+        0 0 150px #fff;
+    }
+
+    .stars {
+        display: block;
+        opacity: 1;
+    }
+
+    .star6 {
+        animation: twinkle 3s infinite alternate;
+    }
+
+    .star3 {
+        animation: twinkle 3s infinite alternate 1s;
+    }
+
+    .star12 {
+        animation: twinkle 3s infinite alternate 2s;
+    }
+
+    .star2 {
+        animation: twinkle 2s infinite alternate 3s;
+    }
+
+    .star11 {
+        animation: twinkle 2s infinite alternate 1s;
+    }
+
+    .star5 {
+        animation: twinkle 4s infinite alternate;
+    }
+
+    .dashed {
+        opacity: 0;
+    }
+
+    .dashed2 {
+        opacity: 0;
+    }
+
+    .line {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        opacity: 0;
+    }
+
+    .subtext {
+        display: none;
+    }
+
+    .moon {
+        display: block;
+
+        animation: rise 4s linear;
+        animation-timing-function: cubic-bezier(.56,.84,.47,.85);
+    }
+
+    .dashed {
+        display: block;
+
+        animation: pulse 5s infinite linear 3s;
+    }
+
+    .dashed2 {
+        display: block;
+
+        animation: pulse 5s infinite linear 4s;
+    }
+
+    .dotted {
+        display: none;
+    }
+
+    .dotted2 {
+        display: none;
+    }
+
+    .line {
+        display: block;
+
+        animation: pulse 5s infinite linear 4s;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+    .glow {
+        display: block;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        display: none;
+    }
+
+    .subtext {
+        display: none;
+    }
+
+    .moon {
+        display: block;
+        background-color: #fff;
+
+        /* box-shadow: 0px 0px 5px 12px white; */
+    }
+
+    .dashed {
+        display: block;
+    }
+
+    .dashed2 {
+        display: block;
+    }
+
+    .dotted {
+        display: block;
+
+        animation: rotate 3s infinite alternate;
+    }
+
+    .dotted2 {
+        display: block;
+
+        animation: rotate 2s infinite alternate;
+    }
+
+    .line {
+        display: block;
+    }
+
+    .line2 {
+        display: block;
+
+        animation: rotate 4s infinite alternate;
+    }
+
+    .glow {
+        display: none;
+        opacity: 1;
+
+        /* animation: glow 4s infinite alternate; */
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title {
+        display: block;
+        opacity: 1;
+    }
+
+    .subtext {
+        display: none;
+    }
+
+    .stars {
+        display: none;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .container {
+        background-color: white;
+        color: black;
+    }
+
+
+    .dashed {
+        display: none;
+    }
+
+    .dashed2 {
+        display: none;
+    }
+
+    .dotted {
+        display: none;
+    }
+
+    .dotted2 {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+    .glow {
+        display: none;
+        opacity: 0;
+    }
+}
