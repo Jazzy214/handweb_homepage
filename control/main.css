@@ -1,0 +1,551 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(35, 28, 46);
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    position: fixed;
+    text-align: center;
+    bottom: 5px;
+    left: 680px;
+}
+
+button {
+    background-color: rgb(60, 38, 90);
+    color: white;
+}
+
+audio {
+    position: fixed;
+    bottom: 10px;
+    left: 8px;
+}
+
+.baseimage {
+    position: fixed;
+    width: 600px;
+    top: 50px;
+    right: 500px
+}
+
+.lefteye {
+    position: fixed;
+    width: 180px;
+    left: 543px;
+    top: 300px;
+}
+
+.left-eye :hover {
+    width: 160px;
+    left: 554px;
+    top: 305px;
+}
+
+.glow {
+     
+}
+
+.righteye {
+    position: fixed;
+    width: 160px;
+    left: 790px;
+    top: 300px;
+}
+
+.righteye-btn :hover {
+    width: 140px;
+    left: 798px;
+    top: 298px;
+}
+
+.nose {
+    position: fixed;
+    width: 90px;
+    top: 443px;
+    right: 730px;
+
+    /* animation: spin 5s linear infinite; */
+    /* animation-play-state: running; */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.outline {
+    background-color: #262262;
+    position: fixed;
+    width: 290px;
+    height: 90px;
+
+    top: 540px;
+    left: 606px;
+
+    border-radius: 30px;
+    border: solid 8px #662D91;
+
+}
+
+/* btn */
+.tooth1 {
+    position: fixed;
+    background-color: #FFDE17;
+
+    height: 36px;
+    width: 39px;
+    top: 549px;
+    left: 705px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* btn */
+.tooth2 {
+    position: fixed;
+    background-color: #EF4136;
+
+    height: 36px;
+    width: 39px;
+    top: 586px;
+    left: 790px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tooth3 {
+    position: fixed;
+    background-color: #FBB040;
+
+    height: 36px;
+    width: 39px;
+    top: 549px;
+    left: 820px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tooth4 {
+    position: fixed;
+    background-color: white;
+
+    height: 36px;
+    width: 39px;
+    top: 549px;
+    left: 760px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tooth5 {
+    position: fixed;
+    background-color: #F15A29;
+
+    height: 36px;
+    width: 39px;
+    top: 549px;
+    left: 644px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.tooth6 {
+    position: fixed;
+    background-color: white;
+
+    height: 36px;
+    width: 39px;
+    top: 586px;
+    left: 675px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.teeth :hover {
+    height: 28px;
+}
+
+.leftslide {
+    position: fixed;
+    background-color: #662D91;
+
+    width: 146px;
+    height: 35px;
+    top: 255px;
+    left: 555px;
+    border: solid 4px #262262;
+    border-radius: 50px;
+}
+
+.leftcircle {
+    position: fixed;
+    background-color: #FFDE17;
+
+    width: 46px;
+    height: 46px;
+    top: 250px;
+    left: 565px;
+
+    border: solid 4px #262262;
+    border-radius: 100%;
+}
+
+
+.rightslide {
+    position: fixed;
+    background-color: #FFDE17;
+
+    width: 146px;
+    height: 35px;
+    top: 255px;
+    right: 577px;
+    border: solid 4px #262262;
+    border-radius: 50px;
+}
+
+.rightcircle {
+    position: fixed;
+    background-color: #92278F;
+
+    width: 46px;
+    height: 46px;
+    top: 250px;
+    right: 594px;
+
+    border: solid 4px #262262;
+    border-radius: 100%;
+}
+
+.circle1 {
+    position: fixed;
+    background-color: #FBB040;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 100%;
+    border: solid 5px #E76F26;
+    top: 395px;
+    left: 494px;
+}
+
+.circle2 {
+    position: fixed;
+    background-color: #FBB040;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 100%;
+    border: solid 5px #E76F26;
+    top: 298px;
+    left: 688px;
+}
+
+.btn1 {
+    position: fixed;
+    width: 70px;
+    top: 299px;
+    left: 508px;
+}
+
+.glow {
+    box-shadow: 0 0 10px 5px rgb(255, 254, 248);
+}
+
+.btn2 {
+    position: fixed;
+    width: 70px;
+    top: 466px;
+    right: 550px;
+}
+    
+.candy1 {
+    position: fixed;
+    width: 26px;
+    top: 110px;
+    left: 580px;
+
+    animation: bounce 2s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        top: 110px;
+    }
+
+    100% {
+        top: 116px;
+    }
+}
+
+.stem1 {
+    position: fixed;
+    width: 3px;
+    height: 60px;
+    background-color: #F15A29;
+
+    top: 130px;
+    left: 592px;
+    z-index: -1;
+}
+
+
+.candy2 {
+    position: fixed;
+    width: 26px;
+    top: 115px;
+    right: 609px;
+
+    animation: bounce2 2s ease-in-out infinite alternate;
+}
+
+.stem2 {
+    position: fixed;
+    width: 3px;
+    height: 60px;
+    background-color: #F15A29;
+
+    top: 120px;
+    right: 665px;
+    z-index: -1;
+}
+
+@keyframes bounce2 {
+    0% {
+        top: 128px;
+    }
+
+    100% {
+        top: 116px;
+    }
+}
+
+.stem3 {
+    position: fixed;
+    width: 3px;
+    height: 60px;
+    background-color: #F15A29;
+
+    top: 150px;
+    right: 620px;
+    z-index: -1;
+}
+
+.candy3 {
+    position: fixed;
+    width: 26px;
+    top: 93px;
+    left: 848px;
+
+    animation: bounce3 3s ease-in-out infinite alternate;
+}
+
+
+@keyframes bounce3 {
+    0% {
+        top: 92px;
+    }
+
+    100% {
+        top: 100px;
+    }
+}
+
+
+/* stars --> start */
+
+.star {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 15%;
+    top: 30%;
+}
+
+.star2 {
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    border-radius: 100%;
+    left: 25%;
+    top: 83%;
+}
+
+.star3 {
+    background-color: white;
+    width: 3px;
+    height: 3px;
+    position: fixed;
+    border-radius: 100%;
+    left: 74%;
+    top: 68%;
+}
+
+.star4 {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 68%;
+    top: 24%;
+}
+
+.star5 {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 87%;
+    bottom: 20%;
+}
+
+.star6 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    position: fixed;
+    border-radius: 100%;
+    left: 5%;
+    top: 70%;
+}
+
+.star7 {
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    position: fixed;
+    border-radius: 100%;
+    left: 91%;
+    top: 10%;
+}
+
+.star8 {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: fixed;
+    border-radius: 100%;
+    left: 30%;
+    top: 10%;
+}
+
+
+.star10 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    position: fixed;
+    border-radius: 100%;
+    left: 81%;
+    top: 43%;
+}
+
+.star11 {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    position: fixed;
+    border-radius: 100%;
+    left: 7%;
+    top: 8%;
+}
+
+
+
+.star13 {
+    background-color: white;
+    width: 2px;
+    height: 2px;
+    position: fixed;
+    border-radius: 100%;
+    left: 18%;
+    top: 65%;
+}
+
+/* star animations */
+
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.star6 {
+    animation: twinkle 3s infinite alternate;
+}
+
+.star3 {
+    animation: twinkle 3s infinite alternate 1s;
+}
+
+.star12 {
+    animation: twinkle 3s infinite alternate 2s;
+}
+
+.star2 {
+    animation: twinkle 2s infinite alternate 3s;
+}
+
+.star11 {
+    animation: twinkle 2s infinite alternate 1s;
+}
+
+.star5 {
+    animation: twinkle 4s infinite alternate;
+}
+
+/* stars --> end */

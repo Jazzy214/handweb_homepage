@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* font files for priny are usally otf and ttf */
+
+/* web version font files are normally woff or woff2 */
+/* some fonts don't have web versions */
+/* can use fontsquirel to convert -> webfont generator */
+/* open generated stylesheet to get code */
+
+@font-face {
+    font-family: 'mixo';
+    src: url('vtf_mixo-webfont.woff2') format('woff2'),
+         url('vtf_mixo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.default {
+    /* you can include a series of fallbacks by using "," start with the most preferred*/
+    font-family: helvetica, sans-serif;
+
+    font-size: 40px;
+    padding: 6px; 
+}
+
+.google {
+    font-family: 'Gloock', serif;
+    font-size: 40px;
+    padding: 6px; 
+}
+
+.new-google {
+    font-family: 'megrim', sans-serif;
+    font-size: 40px;
+    padding: 6px; 
+}
+
+/* uses the fontsquirrel generated woff files -> used a downloaded font */
+
+.squirrel {
+    font-family: 'mixo', sans-serif;
+    font-size: 40px;
+    padding: 6px; 
+}
