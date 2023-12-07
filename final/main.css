@@ -170,7 +170,7 @@ form {
     border: 2px solid green;
     position: fixed;
 
-    height: 145px;
+    height: 195px;
     width: 500px;
 
     top: 520px;
@@ -194,19 +194,28 @@ form {
     border-radius: 100%;
 }
 
+.sunmoon:hover {
+    height: 160px;
+    width: 160px;
+    box-shadow: 0px 30px 209px 100px rgba(255, 196, 69, 0.92);
+
+    top: 350px;
+    right: 80px;
+}
 
 
 .slider {
-    background-color: green;
+    /* background-color: green; */
     position: fixed;
 
-    height: 40px;
-    width: 495px;
+    height: 20px;
+    width: 300px;
 
-    right: 45px;
-    bottom: 35px;
+    /* right: 45px; */
+    bottom: 20px;
 
-    color: white;
+    color: green;
+    font-size: 15px;
 
 }
 
@@ -255,6 +264,18 @@ form {
 
     top: 240px;
     right: 600px;
+
+    animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .theme-btn1 {
@@ -311,4 +332,25 @@ form {
     right: 600px;
 
     border-radius: 100%;
+}
+
+.slider {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    animation: slide 13s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translatex(110vw);
+    }
+
+
+    100% {
+        transform: translatex(-20vw);
+    }
+
 }
