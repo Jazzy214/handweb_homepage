@@ -117,7 +117,7 @@ form {
 }
 
 .btn {
-    background-color: rgb(255, 255, 255);
+    background-color: #fbf3cb;
     border: 2px solid green;
     position: fixed;
 
@@ -128,6 +128,12 @@ form {
     bottom: 35px;
 
     border-radius: 20px;
+}
+
+.thing {
+    position: fixed;
+    left: 390px;
+    bottom: 33px;
 }
 
 .text {
@@ -200,6 +206,8 @@ form {
     right: 45px;
     bottom: 35px;
 
+    color: white;
+
 }
 
 .decor {
@@ -232,8 +240,12 @@ form {
 }
 
 .music {
-    background-color: rgb(240, 226, 206);
-    border: 2px solid green;
+    /* background-color: rgb(240, 226, 206); */
+
+    background-image: url("images/vinyl.png");
+    background-size: cover;
+
+    /* border: 2px solid green; */
     position: fixed;
 
     border-radius: 100%;
