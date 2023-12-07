@@ -1,11 +1,14 @@
-$(".spin-btn").click(
+$(".nose").click(
     function(){
         $(".nose").toggleClass("spin");
     }
 );
 
-$(".glow-btn").click(
+$(".lefteye").click(
     function(){
-        $(".left-eye").toggleClass("glow");
+        $(".lefteye").toggleClass("glow");
     }
 );
+
+// sends log to console
+console.log("test");

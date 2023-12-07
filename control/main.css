@@ -41,14 +41,14 @@ audio {
     top: 300px;
 }
 
-.left-eye :hover {
+.left-eye:hover {
     width: 160px;
     left: 554px;
     top: 305px;
 }
 
 .glow {
-     
+    box-shadow: 0 0 10px 5px rgb(255, 254, 248);
 }
 
 .righteye {
@@ -70,8 +70,8 @@ audio {
     top: 443px;
     right: 730px;
 
-    /* animation: spin 5s linear infinite; */
-    /* animation-play-state: running; */
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
 }
 
 @keyframes spin {
@@ -88,15 +88,6 @@ audio {
     animation-play-state: running;
 }
 
-@keyframes spin {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 .outline {
     background-color: #262262;
@@ -281,9 +272,6 @@ audio {
     left: 508px;
 }
 
-.glow {
-    box-shadow: 0 0 10px 5px rgb(255, 254, 248);
-}
 
 .btn2 {
     position: fixed;

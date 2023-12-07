@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    cursor: crosshair;
+    background-color: #EEECDC;
+}
+
+
+h1 {
+    margin: 20px;
+    position: fixed;
+    color: green;
+    font-size: 90px;
+    top: 28px;
+    left: 15px;
+}
+
+.header {
+    margin: 20px;
+    width: 1450px;
+    height: 50px;
+    /* background-color: white; */
+    position: fixed; 
+    left: 15px;
+    top: 150px;
+}
+
+hr {
+    position: fixed; 
+    top: 190px;
+    height: 1px;
+    width: 1450px;
+    border-top: 1px solid green;
+}
+
+p {
+    color: green;
+    font-size: 15px;
+}
+
+.left {
+    position: fixed;
+    left: 37px;
+    top: 160px;
+}
+
+
+.right {
+    position: fixed;
+    right: 45px;
+    top: 160px;
+}
+
+.center {
+    text-align: center;
+    font-size: 30px;
+
+    position: fixed;
+    top: 140px;
+
+    left: 740px;
+}
+
+.clock {
+    margin: 0;
+    /* background-color: rgb(240, 226, 206); */
+    width: 360px;
+    height: 150px;
+    position: fixed; 
+    top: 20px;
+    right: 40px;
+    border: 2px solid green;
+    border-radius: 100%;
+}
+
+.container {
+    color: green;
+    font-weight: bold;
+    position: fixed;
+    top: 60px;
+    right: 55px;
+    font-size: 55px;
+}
+
+.image {
+    background-image: url("images/Raingif.gif");
+    background-size: cover;
+    
+    border: 2px solid green;
+    position: fixed;
+
+    height: 480px;
+    width: 300px;
+    bottom: 35px;
+    left: 37px;
+}
+
+.journal {
+    /* background-color: white; */
+    /* border: 2px solid green; */
+    position: fixed;
+
+    height: 435px;
+    width: 300px;
+    bottom: 80px;
+    left: 370px;
+}
+
+
+form {
+    position: fixed;
+    left: 370px;
+    bottom: 75px;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+    position: fixed;
+
+    height: 40px;
+    width: 300px;
+
+    left: 370px;
+    bottom: 35px;
+
+    border-radius: 20px;
+}
+
+.text {
+    /* background-color: rgb(240, 226, 206); */
+    width: 500px;
+    height: 100px;
+
+    /* border: 2px solid green; */
+    position: fixed;
+
+    top: 230px;
+    right: 45px;
+    text-align: center;
+}
+
+
+.sticky {
+    background-color: rgb(254, 245, 196);
+    border: 2px solid green;
+    position: fixed;
+
+    height: 130px;
+    width: 250px;
+
+    top: 360px;
+    right: 295px;
+}
+
+.gifs {
+    /* background-color: rgb(240, 226, 206); */
+
+    background-image: url("images/bee.gif");
+    background-size: cover;
+    border: 2px solid green;
+    position: fixed;
+
+    height: 145px;
+    width: 500px;
+
+    top: 520px;
+    right: 45px;
+
+    border-radius: 25px;
+}
+
+.sunmoon {
+    background-color: #fca80c;
+    border: 2px solid #f7c631;
+    position: fixed;
+    box-shadow: 0px 0px 209px 48px rgba(255,145,48,0.92);
+
+    height: 130px;
+    width: 130px;
+
+    top: 360px;
+    right: 90px;
+
+    border-radius: 100%;
+}
+
+
+
+.slider {
+    background-color: green;
+    position: fixed;
+
+    height: 40px;
+    width: 495px;
+
+    right: 45px;
+    bottom: 35px;
+
+}
+
+.decor {
+    background-image: linear-gradient(45deg, rgb(255, 166, 0) , rgb(109, 144, 109));
+    position: fixed;
+
+    height: 260px;
+    width: 230px;
+
+    right: 585px;
+    bottom: 35px;
+
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+}
+
+.decor2 {
+    /* background-color: rgb(240, 226, 206); */
+    position: fixed;
+
+    height: 100px;
+    width: 230px;
+
+    right: 585px;
+    bottom: 250px;
+
+    border: 2px solid green;
+    border-bottom-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+}
+
+.music {
+    background-color: rgb(240, 226, 206);
+    border: 2px solid green;
+    position: fixed;
+
+    border-radius: 100%;
+
+    width: 200px;
+    height: 200px;
+
+    top: 240px;
+    right: 600px;
+}
+
+.theme-btn1 {
+    background-color: rgb(224, 145, 112);
+    border: 2px solid green;
+    position: fixed;
+
+    height: 30px;
+    width: 30px;
+
+    top: 70px;
+    right: 500px;
+
+    border-radius: 100%;
+}
+
+.theme-btn2 {
+    background-color: rgb(206, 229, 240);
+    border: 2px solid green;
+    position: fixed;
+
+    height: 30px;
+    width: 30px;
+
+    top: 70px;
+    right: 550px;
+
+    border-radius: 100%;
+}
+
+.theme-btn3 {
+    background-color: rgb(220, 240, 206);
+    border: 2px solid green;
+    position: fixed;
+
+    height: 30px;
+    width: 30px;
+
+    top: 70px;
+    right: 450px;
+
+    border-radius: 100%;
+}
+
+.theme-btn4 {
+    background-color: rgb(132, 124, 124);
+    border: 2px solid green;
+    position: fixed;
+
+    height: 30px;
+    width: 30px;
+
+    top: 70px;
+    right: 600px;
+
+    border-radius: 100%;
+}
