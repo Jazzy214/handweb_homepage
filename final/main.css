@@ -117,7 +117,7 @@ form {
 }
 
 .btn {
-    background-color: #fbf3cb;
+    background-color: #d2e4ba;
     border: 2px solid green;
     position: fixed;
 
@@ -242,7 +242,7 @@ form {
 .music {
     /* background-color: rgb(240, 226, 206); */
 
-    background-image: url("images/vinyl.png");
+    background-image: url("images/Vinyl2.png");
     background-size: cover;
 
     /* border: 2px solid green; */
