@@ -294,6 +294,11 @@ form {
     border-radius: 100%;
 }
 
+.theme-btn1:hover {
+    height: 25px;
+    width: 25px;
+}
+
 .theme-btn2 {
     background-color: #b6b4e4;
     border: 2px solid green;
@@ -306,6 +311,11 @@ form {
     right: 550px;
 
     border-radius: 100%;
+}
+
+.theme-btn2:hover {
+    height: 25px;
+    width: 25px;
 }
 
 .theme-btn3 {
@@ -322,6 +332,12 @@ form {
     border-radius: 100%;
 }
 
+
+.theme-btn3:hover {
+    height: 25px;
+    width: 25px;
+}
+
 .theme-btn4 {
     background-color: #f3c4c3;
     border: 2px solid green;
@@ -334,6 +350,11 @@ form {
     right: 600px;
 
     border-radius: 100%;
+}
+
+.theme-btn4:hover {
+    height: 25px;
+    width: 25px;
 }
 
 .slider {
