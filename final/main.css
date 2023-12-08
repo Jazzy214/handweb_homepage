@@ -71,7 +71,7 @@ p {
     height: 150px;
     position: fixed; 
     top: 20px;
-    right: 40px;
+    right: 35px;
     border: 2px solid green;
     border-radius: 100%;
 }
@@ -81,7 +81,7 @@ p {
     font-weight: bold;
     position: fixed;
     top: 60px;
-    right: 55px;
+    right: 60px;
     font-size: 55px;
 }
 
