@@ -3,11 +3,12 @@
     <head>
         <title>Final</title>
         <link rel="stylesheet" href="main.css">
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="script.js"></script>  
+        <script src="script.js"></script> 
     </head>
     <body>
+        
+        <audio controls src="music/summer-rain-145157.mp3" class="bgmusic"></audio>
 
         <div class="title">
 
@@ -18,7 +19,7 @@
         <div class="header">
 
             <div>
-               <hr>
+               <hr id="fallorange">
 
                <p class="left">Handmade Web Final</p>
                 
@@ -30,13 +31,13 @@
 
         </div>
 
-        <div class="sunmoon">
+        <div class="sunmoon" id="moon">
 
         </div>
 
         <div class="journal">
 
-            <div class="btn">
+            <div class="btn" id="btnchange">
                 <p class="thing"><em>insert thoughts here...</em></p>
             </div>
 
@@ -50,10 +51,10 @@
         
         <a href="#">
 
-            <div class="sticky" contenteditable="true"></div>
+            <div class="sticky" contenteditable="true" id="stickychange"></div>
 
         </a>
-        <div class="gifs">
+        <div class="gifs" id="fallgif">
         
         </div>
 
@@ -64,10 +65,10 @@
         <p class="slider">relax and do some journaling! what to write...</p>
 
         <div class=" text">
-            <p>Use this site as a space to relax and write down your thoughts. I think it is really important to take some time every now and then to reflect on and revisit past thoughts, memories, or experiences. This site is still a work in progress, so more customization options (like changing the theme according to the season) will be coming soon!</p>
+            <p>Use this site as a space to relax and write down your thoughts. I think it is really important to take some time every now and then to reflect on and revisit past thoughts, memories, or experiences. Use the four navigation buttons at the top to customize the page! You can choose between three other season-themed pages and a dark mode.</p>
         </div>
 
-        <div class="clock">
+        <div class="clock" id="clockborder">
             
         </div>
 
@@ -80,15 +81,15 @@
             <span id="session">AM</span>
         </div>
 
-        <div class="image">
+        <div class="image" id="fallimage">
 
         </div>
 
-        <div class="decor">
+        <div class="decor" id="arc">
 
         </div>
 
-        <div class="decor2">
+        <div class="decor2" id="halfcircle">
 
         </div>
 
@@ -96,19 +97,19 @@
 
         </div>
 
-        <div class="theme-btn1">
+        <div class="theme-btn1" onclick="fall()">
 
         </div>
 
-        <div class="theme-btn2">
+        <div class="theme-btn2" onclick="darkmode()">
 
         </div>
 
-        <div class="theme-btn3">
+        <div class="theme-btn3" onclick="winter()">
 
         </div>
 
-        <div class="theme-btn4">
+        <div class="theme-btn4" onclick="summer()">
 
         </div>
 

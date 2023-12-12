@@ -6,13 +6,37 @@ body {
     margin: 0;
     cursor: crosshair;
     background-color: #EEECDC;
+
+    color: green;
+
+    transition: background-color .5s;
+    transition: color .5s;
 }
 
+
+.fallorange2 {
+    color: rgb(255, 119, 0);
+    background-color: #f4e1c8;
+}
+
+.summerorange2 {
+    color: #fcfbb8;
+    background-color: #92a0b7;
+}
+
+.winterorange2 {
+    color: #e0d0ee;
+    background-color: #66708d;
+}
+
+.dark {
+    background-color: rgb(33, 32, 32);
+}
 
 h1 {
     margin: 20px;
     position: fixed;
-    color: green;
+    /* color: green; */
     font-size: 90px;
     top: 28px;
     left: 15px;
@@ -34,12 +58,27 @@ hr {
     height: 1px;
     width: 1450px;
     border-top: 1px solid green;
+
+    transition: border-top .5s;
+}
+
+.fallorange {
+    border-top: 1px solid rgb(255, 119, 0);
+}
+
+.summerorange {
+    border-top: 1px solid #fcfbb8;
+}
+
+.winterorange {
+    border-top: 1px solid #e0d0ee;
 }
 
 p {
-    color: green;
+    /* color: green; */
     font-size: 15px;
 }
+
 
 .left {
     position: fixed;
@@ -74,10 +113,24 @@ p {
     right: 35px;
     border: 2px solid green;
     border-radius: 100%;
+
+    transition: border 0s;
+}
+
+.clockborder {
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.summerclockborder {
+    border: 2px solid #fcfbb8;
+}
+
+.winterclockborder {
+    border: 2px solid #e0d0ee;
 }
 
 .container {
-    color: green;
+    /* color: green; */
     font-weight: bold;
     position: fixed;
     top: 60px;
@@ -96,6 +149,26 @@ p {
     width: 300px;
     bottom: 35px;
     left: 37px;
+
+    transition: all 0s;
+}
+
+.fallimage {
+    background-image: url("images/blackcat.gif");
+    background-size: auto;
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.summerimage {
+    background-image: url("images/waves.webp");
+    /* background-size: auto; */
+    border: 2px solid #fcfbb8; 
+}
+
+.winterimage {
+    background-image: url("images/snow.gif");
+    background-size: cover;
+    border: 2px solid #e0d0ee;
 }
 
 .journal {
@@ -128,6 +201,23 @@ form {
     bottom: 35px;
 
     border-radius: 20px;
+
+    transition: all .5s;
+}
+
+.fallbtn {
+    background-color: rgb(246, 221, 199);
+    border: 2px solid rgb(255, 119, 0); 
+}
+
+.summerbtn {
+    background-color: #b4bdcc;
+    border: 2px solid #fcfbb8;
+}
+
+.winterbtn {
+    background-color: #9ca0aa;
+    border: 2px solid #e0d0ee;
 }
 
 .thing {
@@ -162,6 +252,20 @@ form {
 
     top: 360px;
     right: 295px;
+
+    transition: all .5s;
+}
+
+.fallsticky {
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.summersticky {
+    border: 2px solid #fcfbb8;
+}
+
+.wintersticky {
+    border: 2px solid #e0d0ee;
 }
 
 .gifs {
@@ -179,6 +283,24 @@ form {
     right: 45px;
 
     border-radius: 25px;
+
+    transition: all 0s;
+}
+
+.fallgif {
+    background-image: url("images/fallingleaves.gif");
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.summergif {
+    background-image: url("images/train.gif");
+    border: 2px solid #fcfbb8; 
+}
+
+.wintergif {
+    background-image: url("images/moon.gif");
+    background-size: auto;
+    border: 2px solid #e0d0ee;
 }
 
 .sunmoon {
@@ -194,6 +316,14 @@ form {
     right: 90px;
 
     border-radius: 100%;
+
+    transition: all .5s;
+}
+
+.wintermoon {
+    box-shadow: 0px 0px 209px 48px rgba(245, 241, 255, 0.92);
+    background-color: #e4dcfc;
+    border: 2px solid #ffffff;
 }
 
 .sunmoon:hover {
@@ -205,7 +335,6 @@ form {
     right: 80px;
 }
 
-
 .slider {
     /* background-color: green; */
     position: fixed;
@@ -216,7 +345,7 @@ form {
     /* right: 45px; */
     bottom: 20px;
 
-    color: green;
+    /* color: green; */
     font-size: 15px;
 
 }
@@ -235,6 +364,18 @@ form {
     border-top-left-radius: 150px;
 }
 
+.fallgradient {
+   background-image: linear-gradient(45deg, rgb(255, 94, 0), rgb(235, 205, 122)); 
+}
+
+.summergradient {
+    background-image: linear-gradient(45deg, rgb(255, 237, 138), rgb(255, 193, 202)); 
+}
+
+.wintergradient {
+    background-image: linear-gradient(45deg, rgb(170, 191, 219), rgb(173, 116, 192)); 
+}
+
 .decor2 {
     /* background-color: rgb(240, 226, 206); */
     position: fixed;
@@ -248,6 +389,20 @@ form {
     border: 2px solid green;
     border-bottom-right-radius: 110px;
     border-bottom-left-radius: 110px;
+
+    transition: all .5s;
+}
+
+.fallhalf {
+    border: 2px solid rgb(255, 119, 0);
+}
+
+.summerhalf {
+    border: 2px solid #fcfbb8;
+}
+
+.winterhalf {
+    border: 2px solid #e0d0ee;
 }
 
 .music {
@@ -281,8 +436,8 @@ form {
 }
 
 .theme-btn1 {
-    background-color: rgb(224, 145, 112);
-    border: 2px solid green;
+    background-color: rgb(227, 125, 81);
+    /* border: 2px solid white; */
     position: fixed;
 
     height: 30px;
@@ -297,11 +452,14 @@ form {
 .theme-btn1:hover {
     height: 25px;
     width: 25px;
+
+    top: 73px;
+    right: 503px;
 }
 
 .theme-btn2 {
-    background-color: #b6b4e4;
-    border: 2px solid green;
+    background-color: #909095;
+    /* border: 2px solid white; */
     position: fixed;
 
     height: 30px;
@@ -316,11 +474,14 @@ form {
 .theme-btn2:hover {
     height: 25px;
     width: 25px;
+
+    top: 73px;
+    right: 553px;
 }
 
 .theme-btn3 {
     background-color: #80aca8;
-    border: 2px solid green;
+    /* border: 2px solid white; */
     position: fixed;
 
     height: 30px;
@@ -336,11 +497,14 @@ form {
 .theme-btn3:hover {
     height: 25px;
     width: 25px;
+
+    top: 73px;
+    right: 453px;
 }
 
 .theme-btn4 {
-    background-color: #f3c4c3;
-    border: 2px solid green;
+    background-color: rgb(231, 206, 123);
+    /* border: 2px solid white; */
     position: fixed;
 
     height: 30px;
@@ -355,6 +519,8 @@ form {
 .theme-btn4:hover {
     height: 25px;
     width: 25px;
+    top: 73px;
+    right: 603px;
 }
 
 .slider {
@@ -376,4 +542,14 @@ form {
         transform: translatex(-20vw);
     }
 
+}
+
+.bgmusic {
+    position: fixed;
+    top: 314px;
+    left: 747px;
+    width: 160px;
+    /* width: 65px; */
+    
+    z-index: 1;
 }
